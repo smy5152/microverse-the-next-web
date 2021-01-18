@@ -1,0 +1,133 @@
+a {
+  text-decoration: none;
+}
+
+h2 {
+  margin-bottom: 24px;
+  margin-left: 5px;
+  cursor: pointer;
+  color: rgb(255, 68, 34);
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
+}
+h2:hover {
+  color: black;
+}
+
+.black-topbar {
+  height: 32px;
+  background: black;
+}
+
+.white-topbar {
+  height: 48px;
+  background: white;
+  border: 2px solid rgb(85, 85, 85);
+}
+
+.main-content {
+  width: 100%;
+  margin-top: 4px;
+}
+
+.cover {
+  height: 350px;
+  background: goldenrod;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.cover-left {
+  max-height: 100%;
+}
+
+.cover-left .cover-story-article {
+  height: 98%;
+
+}
+
+.cover-right {
+  display: flex;
+  flex-direction: column;
+}
+.cover-right .cover-story-article {
+  height: 50%;
+}
+
+.cover-story-article {
+  margin: 4px;
+}
+
+.red {
+  background: #e55039;
+}
+
+.pink {
+  background: pink;
+}
+
+.purple {
+  background: purple;
+}
+
+.midsection {
+  width: 1200px;
+  margin: 0 auto;
+  border: 2px solid rgb(85, 85, 85);
+}
+
+.midsection-component {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.latest-news-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.latest-news-item {
+  width: 23%;
+  height: 250px;
+  margin: 5px;
+  background: #b33939;
+}
+
+.midsection-funding {
+
+}
+
+.funding-header {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.funding-header-left {
+  float: left;
+}
+
+.funding-header-right {
+  float: right;
+  margin-right: 5px;
+}
+
+.funding-header-right a, span {
+  color: rgb(255, 68, 34);
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.funding-header-right a:hover {
+  color: black;
+}
+
+.funding-header-right span {
+  margin-left: 5px;
+  margin-right: 5px;
+}
