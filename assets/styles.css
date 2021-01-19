@@ -1,5 +1,5 @@
-.header {
-  color: red;
+* {
+  box-sizing: border-box;
 }
 
 nav {
@@ -85,4 +85,30 @@ footer {
   background: silver;
   margin-bottom: 10px;
   width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .grid-container,
+  .grid-container-2,
+  .grid-container-3,
+  .grid-container-4 {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    background-color: #d021f3;
+    padding: 10px;
+    grid-gap: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-container,
+  .grid-container-2,
+  .grid-container-3,
+  .grid-container-4 {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    background-color: #cdf321;
+    padding: 10px;
+    grid-gap: 5px;
+  }
 }
