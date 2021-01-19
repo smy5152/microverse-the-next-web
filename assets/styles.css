@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 nav {
   margin-bottom: 10px;
   width: 100%;
@@ -14,18 +18,13 @@ footer {
   width: 100%;
 }
 
-.grid-container {
-  display: grid;
-  grid-template: 2fr / 2fr 1fr;
-  /* grid-gap: 10px; */
-  /* background-color: #2196f3; */
-  padding: 10px;
-  height: 417px;
+.header-container {
+  display: flex;
   width: 100%;
+  margin: 0 auto;
 }
 
 .grid-container > div,
-.grid-container-2 > div,
 .grid-container-3 > div,
 .grid-container-4 > div {
   background-color: rgba(255, 255, 255, 0.8);
@@ -34,11 +33,27 @@ footer {
   border: 1px black;
 }
 
-.right > div {
-  background-color: rgba(85, 85, 85, 0.8);
-  margin: 5px;
+.right {
+  margin: 0 auto;
+  /* width: auto; */
+  /* height: 200px; */
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
+.right-top > img {
+  margin: 5px;
+  /* height: 200px; */
+  width: 400px;
+}
+
+.right-bottom > img {
+  margin: 5px;
+  /* height: 200px; */
+  width: 400px;
+}
 .main-section {
   margin: 0 auto;
   justify-content: space-between;
@@ -49,7 +64,7 @@ footer {
   display: grid;
   grid-template: auto / 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  background-color: #1186a3;
+  /* background-color: #1186a3; */
   padding: 10px;
 }
 
@@ -95,6 +110,10 @@ footer {
   float: left;
 }
 
+.header-article {
+  width: 70%;
+}
+
 .header-article-overlay {
   z-index: 2;
   height: 417px;
@@ -111,8 +130,8 @@ footer {
 
 .header-article-date {
   text-align: right;
-  margin-top: 10px;
-  margin-right: 10px;
+  margin-top: 15px;
+  margin-right: 80px;
   font-size: 14px;
   font-weight: 400px;
   font-family: Helvetica, Arial, sans-serif;
@@ -137,6 +156,30 @@ footer {
   font-weight: 400px;
   font-family: Helvetica, Arial, sans-serif;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.latest-news-one {
+  /* width: 25%; */
+  padding: 2px;
+}
+
+.latest-news-image > img {
+  width: 200px;
+}
+
+.latest-news-title {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 2px;
+}
+
+.latest-news-author {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(170, 170, 170);
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 2px;
 }
 
 @media (max-width: 1024px) {
