@@ -73,18 +73,34 @@ footer {
 }
 
 .black-top-bar {
-  border: 2px black;
   height: 30px;
   background: black;
   width: 100%;
+  color: white;
+}
+.black-left {
+  float: left;
+}
+.black-right {
+  float: right;
 }
 
 .white-top-bar {
-  border: 2px black;
   height: 30px;
   background: silver;
   margin-bottom: 10px;
   width: 100%;
+  color: white;
+  float: left;
+}
+
+.header-article > img {
+  z-index: 1;
+}
+
+.text-on-image {
+  z-index: 2;
+  margin-top: -200px;
 }
 
 @media (max-width: 1024px) {
