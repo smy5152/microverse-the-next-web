@@ -25,14 +25,17 @@ footer {
   position: relative;
   padding: 5px 5px;
 }
+
 .hero-image {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
+
 .hero-image img {
   width: 100%;
 }
+
 .hero-image > *:first-child {
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
@@ -40,33 +43,37 @@ footer {
   transition: background-color 0.4s ease;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Untitled-design-2021-01-20T180037.911-796x417.png");
   background-repeat: no-repeat;
-  /* background-size: 885px 600px; */
   background-size: 100% 100%;
   display: block;
   will-change: background-color;
   z-index: 2;
 }
+
 .img-1 {
   color: #fff;
   z-index: 1;
   position: relative;
 }
+
 .img-1-container {
   position: absolute;
   bottom: 40px;
   left: 0;
   line-height: 1;
 }
+
 .img-1-container h1 {
   font-weight: 700;
   font-size: 64px;
 }
+
 .img-2-container {
   position: relative;
   text-align: center;
   color: white;
   line-height: 1;
 }
+
 .text-container h1 {
   position: absolute;
   bottom: 8px;
@@ -183,28 +190,11 @@ footer {
 
 .grid-container > div,
 .grid-container-4 > div {
-  /* background-color: rgba(255, 255, 255, 0.8); */
   text-align: center;
   font-size: 10px;
   border: 1px black;
 }
-/*
-.right {
-  margin: 0 auto;
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
 
-.right-top > img {
-  width: 400px;
-}
-
-.right-bottom > img {
-  width: 400px;
-}
-*/
 .main-section {
   margin: 0 auto;
   justify-content: space-between;
@@ -228,7 +218,6 @@ footer {
   display: grid;
   grid-template: auto / 1fr 1fr 1fr;
   grid-gap: 10px;
-  /* background-color: #1186c3; */
 }
 
 .spacer {
@@ -402,11 +391,13 @@ footer {
   color: white;
   line-height: 1;
 }
+
 .img-popular1 a,
 .img-popular2 a,
 .img-popular3 a {
   color: #f42;
 }
+
 .popular-text {
   position: absolute;
   bottom: 5px;
@@ -414,19 +405,22 @@ footer {
   z-index: 1;
   color: #fff;
 }
+
 .popular-text a {
   color: #fff;
 }
+
 .popular-text ul {
   display: flex;
   font-size: 12px;
 }
+
 .float-container1,
 .float-container2,
 .float-container3 {
   position: relative;
-  /* width: 360px; */
 }
+
 .float-container1 h3,
 h4,
 .float-container2 h3,
@@ -436,36 +430,44 @@ h4 {
   color: #f42;
   float: left;
 }
+
 .float-container1 img {
   float: right;
   width: 100%;
 }
+
 .text-img {
   max-width: 360px;
   text-align: left;
   line-height: 1;
 }
+
 .text-img img {
   float: right;
 }
+
 .text-img h4,
 h3 {
   max-width: 250px;
   font-size: 14px;
 }
+
 .text-img h3 {
   margin: 10px;
 }
+
 .link ul {
   display: block;
   list-style-type: disc;
   font-size: 14px;
   color: #f42;
 }
+
 .float-link {
   padding-top: 100px;
   padding-left: 5px;
 }
+
 .link li a {
   color: rgb(85, 84, 84);
   text-decoration: none;
@@ -477,6 +479,7 @@ h3 {
 .white-top-bar-collapsed {
   visibility: hidden;
 }
+
 @media (max-width: 1024px) {
   .grid-container,
   .grid-container-2,
@@ -484,7 +487,6 @@ h3 {
   .grid-container-4 {
     display: grid;
     grid-template: 1fr / 1fr 1fr;
-    /* background-color: #d021f3; */
     padding: 10px;
     grid-gap: 5px;
   }
@@ -497,9 +499,11 @@ h3 {
   .black-top-bar {
     visibility: hidden;
   }
+
   .white-top-bar-collapsed {
     visibility: visible;
   }
+
   .hero h1 {
     /* position: absolute; */
     bottom: 8px;
@@ -520,13 +524,6 @@ h3 {
     grid-gap: 5px;
   }
 
-  .grid-container,
-  .grid-container-2,
-  .grid-container-3,
-  .grid-container-4,
-  img {
-    /* width: 50%; */
-  }
   .latest-news-one {
     display: inline;
     float: left;
@@ -538,14 +535,17 @@ h3 {
     padding: 5px 5px;
     margin: 0 auto;
   }
+
   .hero-image {
     display: flex;
     flex-direction: column;
   }
+
   .hero-image img {
     width: auto;
     max-height: 100px;
   }
+
   .hero-image > *:first-child {
     margin-right: 5px;
     transition: background-color 0.4s ease;
@@ -555,25 +555,30 @@ h3 {
     max-height: 100px;
     z-index: 2;
   }
+
   .img-1 {
     color: #fff;
     z-index: 1;
     position: relative;
   }
+
   .img-1-container {
     bottom: 40px;
     left: 0;
     line-height: 1;
   }
+
   .img-1-container h1 {
     font-weight: 700;
     font-size: 64px;
   }
+
   .img-2-container {
     text-align: center;
     color: white;
     line-height: 1;
   }
+
   .hero h1 {
     bottom: 8px;
     left: 16px;
