@@ -583,6 +583,7 @@ h3 {
 }
 
 .footer {
+  text-align: center;
 }
 
 .footer-social-links {
@@ -609,4 +610,99 @@ h3 {
   font-family: Helvetica, Arial, sans-serif;
   line-height: 19.5px;
   color: rgb(170, 170, 170);
+}
+
+.footer-links {
+  padding: 3em 0 2em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: rgb(19, 19, 19);
+}
+
+.footer-links-wrapper {
+  max-width: 100%;
+  padding: 0 20px;
+}
+
+.footer-links-index {
+  list-style: none;
+  text-align: center;
+}
+
+.footer-links-index li {
+  display: list-item;
+  float: left;
+  font-size: 15px;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgba(170, 170, 170);
+  margin: 0 6px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.footer-links-index li:hover,
+.footer-links-index li:focus {
+  color: white;
+}
+
+.footer-links-social {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.footer-links-social li {
+  display: inline-block;
+  margin: 0 12px;
+  color: white;
+}
+
+.footer-links-social li a {
+  background: grey;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  width: 40px;
+}
+
+.social-icon {
+  width: 16px;
+  height: 16px;
+  display: block;
+  cursor: pointer;
+  background-size: 1296px 1296px;
+  background: transparent url(./images/icons-sprite.svg) no-repeat;
+}
+
+.social-icon-facebook {
+  background-position: -272px -272px;
+}
+
+.social-icon-twitter {
+  background-position: -1024px -1024px;
+}
+
+.social-icon-youtube {
+  background-position: -1280px -1280px;
+}
+
+.social-icon-ig {
+  background-position: -416px -416px;
+}
+
+.social-icon-pinterest {
+  background-position: -672px -672px;
+}
+
+.social-icon-rss {
+  background-position: -816px -816px;
+}
+
+.social-icon-email {
+  background-position: -576px -576px;
 }
