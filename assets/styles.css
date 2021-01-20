@@ -183,7 +183,7 @@ footer {
 
 .grid-container > div,
 .grid-container-4 > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: rgba(255, 255, 255, 0.8); */
   text-align: center;
   font-size: 10px;
   border: 1px black;
@@ -228,7 +228,7 @@ footer {
   display: grid;
   grid-template: auto / 1fr 1fr 1fr;
   grid-gap: 10px;
-  background-color: #1186c3;
+  /* background-color: #1186c3; */
 }
 
 .spacer {
@@ -395,26 +395,10 @@ footer {
 
 /* popular item SECTION BEGINS */
 
-.most-popular {
-  margin-bottom: 2em;
-  padding-top: 24px;
-  margin: auto;
-  max-width: 1100px;
-}
-.popular-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-  max-width: 1100px;
-}
-.popular-container {
-  position: relative;
-}
 .img-popular1,
 .img-popular2,
 .img-popular3 {
   position: relative;
-
   color: white;
   line-height: 1;
 }
@@ -437,17 +421,11 @@ footer {
   display: flex;
   font-size: 12px;
 }
-.latest {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 5px;
-  max-width: 1100px;
-}
 .float-container1,
 .float-container2,
 .float-container3 {
   position: relative;
-  width: 360px;
+  /* width: 360px; */
 }
 .float-container1 h3,
 h4,
@@ -490,10 +468,15 @@ h3 {
 }
 .link li a {
   color: rgb(85, 84, 84);
+  text-decoration: none;
+  color: #aaa;
 }
 
 /* popular section ENDS */
 
+.white-top-bar-collapsed {
+  visibility: hidden;
+}
 @media (max-width: 1024px) {
   .grid-container,
   .grid-container-2,
@@ -509,10 +492,14 @@ h3 {
   .latest-news-one {
     display: inline;
   }
-  nav {
+
+  .white-top-bar,
+  .black-top-bar {
     visibility: hidden;
   }
-
+  .white-top-bar-collapsed {
+    visibility: visible;
+  }
   .hero h1 {
     /* position: absolute; */
     bottom: 8px;
@@ -546,7 +533,6 @@ h3 {
   }
 
   .hero {
-    /* position: relative; */
     display: flex;
     flex-direction: column;
     padding: 5px 5px;
@@ -555,7 +541,6 @@ h3 {
   .hero-image {
     display: flex;
     flex-direction: column;
-    /* display: block; */
   }
   .hero-image img {
     width: auto;
@@ -566,10 +551,7 @@ h3 {
     transition: background-color 0.4s ease;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Untitled-design-2021-01-20T180037.911-796x417.png");
     background-repeat: no-repeat;
-    /* background-size: 885px 600px; */
     background-size: 100% 100%;
-    /* display: inline; */
-    /* will-change: background-color; */
     max-height: 100px;
     z-index: 2;
   }
@@ -579,7 +561,6 @@ h3 {
     position: relative;
   }
   .img-1-container {
-    /* position: absolute; */
     bottom: 40px;
     left: 0;
     line-height: 1;
@@ -589,13 +570,11 @@ h3 {
     font-size: 64px;
   }
   .img-2-container {
-    /* position: relative; */
     text-align: center;
     color: white;
     line-height: 1;
   }
   .hero h1 {
-    /* position: absolute; */
     bottom: 8px;
     left: 16px;
     z-index: 1;
