@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 }
 
 html {
@@ -30,6 +31,45 @@ footer {
   color: black;
 }
 
+.red-title-text {
+  color: #f42;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: "Avalon", sans-serif;
+  letter-spacing: -0.015em;
+  margin-bottom: 15px;
+}
+
+.funding-investment-box {
+  background-color: #fffaf8;
+}
+
+.funding-image {
+  width: 60px;
+  min-width: 60px;
+  max-width: 60px;
+  height: 60px;
+  min-height: 60px;
+  max-height: 60px;
+  z-index: 10;
+  margin: 10px;
+  margin-top: -66px;
+}
+
+.funding-box-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.funding-red-title {
+  background: #f42;
+  color: #fff;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  margin: 0 !important;
+  float: inline-start;
+}
+
 .header-container {
   display: flex;
   width: 100%;
@@ -37,11 +77,11 @@ footer {
 }
 
 .grid-container > div,
-.grid-container-3 > div,
+/* .grid-container-3 > div, */
 .grid-container-4 > div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  font-size: 30px;
+  font-size: 10px;
   border: 1px black;
 }
 
@@ -84,8 +124,8 @@ footer {
   display: grid;
   grid-template: auto / 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  background-color: #1186a3;
-  padding: 10px;
+  /* background-color: #1186a3; */
+  /* padding: 10px; */
 }
 
 .grid-container-4 {
@@ -158,7 +198,7 @@ footer {
   height: 417px;
   width: 796px;
   margin-top: -427px;
-  margin-left: 70px;
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
 }
