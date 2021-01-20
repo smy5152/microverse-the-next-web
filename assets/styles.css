@@ -9,7 +9,6 @@ html {
 }
 
 nav {
-  /* margin-bottom: 10px; */
   width: 100%;
 }
 
@@ -179,7 +178,7 @@ footer {
   grid-template: auto / 1fr 1fr 1fr;
   grid-gap: 10px;
   background-color: #1186c3;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .spacer {
