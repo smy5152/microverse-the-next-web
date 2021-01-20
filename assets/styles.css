@@ -602,3 +602,32 @@ h3 {
     font-size: 50%;
   }
 }
+
+.footer {
+}
+
+.footer-social-links {
+  height: 160px;
+  background: rgb(19, 19, 19);
+}
+
+.footer-legal {
+  background: black;
+  padding: 2.5em 0;
+  text-align: center;
+}
+
+.footer-legal svg {
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
+
+.footer-legal p {
+  display: inline;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 19.5px;
+  color: rgb(170, 170, 170);
+}
