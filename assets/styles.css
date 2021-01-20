@@ -105,25 +105,39 @@ footer {
   background: #131313;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-.black-left {
-  float: left;
+.black-top-bar ul {
   list-style: none;
-  align-self: flex-start;
   padding-inline-start: 0px;
 }
-.black-left li {
+.black-top-bar ul li {
   display: list-item;
   float: left;
-  font-size: 13px;
+  font-size: 14px;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.6);
   margin-left: 12px;
   line-height: 32px;
+  cursor: pointer;
 }
-.black-right {
-  float: right;
+.black-top-bar ul li:hover,
+.black-top-bar ul li:focus {
+  color: white;
+}
+
+.black-top-bar ul li:first-child {
+  margin-left: 20px;
+}
+.black-top-bar ul li:last-child {
+  margin-right: 20px;
+}
+.flex-start {
+  align-self: flex-start;
+}
+.flex-end {
+  align-self: flex-end;
 }
 
 .white-top-bar {
