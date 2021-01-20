@@ -102,12 +102,21 @@ footer {
 
 .black-top-bar {
   height: 30px;
-  background: black;
+  background: #131313;
   width: 100%;
-  color: white;
 }
 .black-left {
   float: left;
+  list-style: none;
+}
+.black-left li {
+  display: list-item;
+  float: left;
+  font-size: 13px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 12px;
 }
 .black-right {
   float: right;
