@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 html {
@@ -16,6 +17,17 @@ footer {
   background: black;
   margin-top: 20px;
   width: 100%;
+}
+
+.old-price {
+  text-decoration: line-through;
+  font-size: 10px;
+}
+
+.deal-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
 }
 
 .header-container {
@@ -189,9 +201,13 @@ footer {
   .grid-container-4 {
     display: grid;
     grid-template: 1fr / 1fr 1fr;
-    background-color: #d021f3;
+    /* background-color: #d021f3; */
     padding: 10px;
     grid-gap: 5px;
+  }
+
+  .latest-news-one {
+    display: inline;
   }
 }
 
@@ -202,8 +218,19 @@ footer {
   .grid-container-4 {
     display: grid;
     grid-template: 1fr / 1fr;
-    background-color: #cdf321;
+    /* background-color: #cdf321; */
     padding: 10px;
     grid-gap: 5px;
+  }
+  .grid-container,
+  .grid-container-2,
+  .grid-container-3,
+  .grid-container-4,
+  img {
+    /* width: 50%; */
+  }
+  .latest-news-one {
+    display: inline;
+    float: left;
   }
 }
