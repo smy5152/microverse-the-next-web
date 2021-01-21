@@ -19,6 +19,10 @@ footer {
   width: 100%;
 }
 
+.navbar-768px {
+  display: none;
+}
+
 /* HEADER HERO SECTION */
 
 .hero {
@@ -605,7 +609,7 @@ h4,
 
   .white-top-bar,
   .black-top-bar {
-    visibility: hidden;
+    visibility: visible;
   }
 
   .hero h1 {
@@ -671,5 +675,16 @@ h4,
     bottom: 8px;
     z-index: 2;
     text-align: left;
+  }
+
+  .black-top-bar,
+  .white-top-bar {
+    display: none;
+  }
+
+  .navbar-768px {
+    visibility: visible;
+    display: flex;
+    flex-direction: row-reverse;
   }
 }
