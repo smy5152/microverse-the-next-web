@@ -249,19 +249,6 @@ footer {
   cursor: pointer;
 }
 
-.black-top-bar ul li:hover,
-.black-top-bar ul li:focus {
-  color: white;
-}
-
-.black-top-bar ul li:first-child {
-  margin-left: 20px;
-}
-
-.black-top-bar ul li:last-child {
-  margin-right: 20px;
-}
-
 .flex-start {
   align-self: flex-start;
 }
@@ -295,19 +282,6 @@ footer {
   margin-left: 20px;
   line-height: 48px;
   cursor: pointer;
-}
-
-.white-top-bar ul li:hover,
-.white-top-bar ul li:focus {
-  color: #131313;
-}
-
-.white-top-bar ul li:first-child {
-  margin-left: 20px;
-}
-
-.white-top-bar ul li:last-child {
-  margin-right: 20px;
 }
 
 .header-article {
@@ -420,14 +394,6 @@ footer {
   position: relative;
 }
 
-.float-container1 h3,
-.float-container2 h3,
-.float-container3 h3,
-h4 {
-  color: #f42;
-  float: left;
-}
-
 .float-container1 img {
   float: right;
   width: 100%;
@@ -451,6 +417,14 @@ h3 {
 
 .text-img h3 {
   margin: 10px;
+}
+
+.float-container1 h3,
+.float-container2 h3,
+.float-container3 h3,
+h4 {
+  color: #f42;
+  float: left;
 }
 
 .link ul {
@@ -645,11 +619,6 @@ h3 {
   cursor: pointer;
 }
 
-.footer-links-index li:hover,
-.footer-links-index li:focus {
-  color: white;
-}
-
 .footer-links-social {
   list-style: none;
   text-align: center;
@@ -675,8 +644,7 @@ h3 {
   height: 16px;
   display: block;
   cursor: pointer;
-  background-size: 1296px 1296px;
-  background: transparent url(./images/icons-sprite.svg) no-repeat;
+  background: transparent url(./images/icons-sprite.svg) 1296px 1296px no-repeat;
 }
 
 .social-icon-facebook {
@@ -705,4 +673,35 @@ h3 {
 
 .social-icon-email {
   background-position: -576px -576px;
+}
+
+.footer-links-index li:hover,
+.footer-links-index li:focus {
+  color: white;
+}
+
+.black-top-bar ul li:hover,
+.black-top-bar ul li:focus {
+  color: white;
+}
+
+.black-top-bar ul li:first-child {
+  margin-left: 20px;
+}
+
+.black-top-bar ul li:last-child {
+  margin-right: 20px;
+}
+
+.white-top-bar ul li:hover,
+.white-top-bar ul li:focus {
+  color: #131313;
+}
+
+.white-top-bar ul li:first-child {
+  margin-left: 20px;
+}
+
+.white-top-bar ul li:last-child {
+  margin-right: 20px;
 }
