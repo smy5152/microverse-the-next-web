@@ -28,6 +28,17 @@ footer {
   display: none;
 }
 
+.latest-funding-right-links {
+  float: right;
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+}
+
+.latest-funding-right-links-768px {
+  display: none;
+}
+
 /* HEADER HERO SECTION */
 
 .hero {
@@ -108,6 +119,7 @@ footer {
   font-family: "Avalon", sans-serif;
   letter-spacing: -0.015em;
   margin-bottom: 15px;
+  margin: 10px;
 }
 
 .funding-investment-box {
@@ -122,7 +134,7 @@ footer {
   height: 60px;
   min-height: 60px;
   max-height: 60px;
-  z-index: 10;
+  z-index: 2;
   margin: 10px;
   margin-top: -70px;
 }
@@ -683,6 +695,11 @@ h4,
     margin-left: 106px;
   }
 
+  .black-top-bar ul li,
+  .white-top-bar ul li {
+    font-size: 12px;
+  }
+
   .navbar-1024px-left {
     display: block;
     background: black;
@@ -716,6 +733,11 @@ h4,
 }
 
 @media (max-width: 768px) {
+  .main-section {
+    margin: 0 auto;
+    max-width: 700px;
+  }
+
   .grid-container,
   .grid-container-2,
   .grid-container-3,
@@ -777,7 +799,8 @@ h4,
     display: none;
   }
 
-  .navbar-1024px-left {
+  .navbar-1024px-left,
+  .latest-funding-right-links {
     display: none;
   }
 
@@ -806,5 +829,28 @@ h4,
     white-space: nowrap;
     padding: 0 6px;
     display: block;
+  }
+
+  .latest-funding-right-links-768px {
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+
+  .latest-funding-right-links-768px span {
+    margin: 7px;
+  }
+
+  .img-popular1 img {
+    width: fit-content;
+  }
+
+  .latest-news-image img {
+    float: left;
+    margin-right: 10px;
+    width: 90px;
+    height: 90px;
   }
 }
