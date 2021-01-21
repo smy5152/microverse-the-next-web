@@ -266,6 +266,10 @@ footer {
   padding-inline-start: 0;
 }
 
+.popular-text li {
+  padding-right: 10px;
+}
+
 .black-top-bar ul li {
   display: list-item;
   float: left;
@@ -298,10 +302,6 @@ footer {
 .white-top-bar ul {
   list-style: none;
   padding-inline-start: 0;
-}
-
-.popular-text li {
-  padding-right: 10px;
 }
 
 .white-top-bar ul li {
