@@ -659,6 +659,7 @@ h4,
   .white-top-bar,
   .black-top-bar {
     visibility: visible;
+    width: auto;
   }
 
   .hero h1 {
