@@ -482,7 +482,7 @@ h4 {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .grid-container,
   .grid-container-2,
   .grid-container-3,
@@ -494,7 +494,7 @@ h4 {
   }
 
   .latest-news-one {
-    display: inline;
+    display: inline;  
     float: left;
   }
 
@@ -511,7 +511,7 @@ h4 {
   }
 
   .hero-image img {
-    width: auto;
+    width: 100%;
     max-height: 100px;
   }
 
