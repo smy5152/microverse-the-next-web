@@ -439,12 +439,23 @@ footer {
   color: #f42;
 }
 
+.popular-gradient {
+  background: transparent url(./images/black-gradient.webp) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 40px;
+  right: 0;
+  z-index: 2;
+}
+
 .popular-text {
   height: 100px;
   position: absolute;
   bottom: 5px;
   left: 16px;
-  z-index: 1;
+  z-index: 3;
   color: #fff;
 }
 
