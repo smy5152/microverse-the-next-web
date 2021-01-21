@@ -902,8 +902,6 @@ h4,
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
     width: 400px;
     align-items: center;
     text-align: center;
