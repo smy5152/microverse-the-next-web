@@ -38,15 +38,15 @@ Skills Revived & Learned:
 
 👤 **Shabbir**
 
-- GitHub: [@githubhandle](https://github.com/smy5152)
-- Twitter: [@twitterhandle](https://twitter.com/smymisr)
-- LinkedIn: [LinkedIn](https://linkedin.com/shabbirmyamani)
+- GitHub: [@smy5152](https://github.com/smy5152)
+- Twitter: [@smy5152](https://twitter.com/smy5152)
+- LinkedIn: [Shabbir Yamani](https://www.linkedin.com/in/shabbirmyamani/)
 
-👤 **Author 2**
+👤 **Carlos González**
 
-- GitHub: [@githubhandle](url)
-- Twitter: [@twitterhandle](url)
-- LinkedIn: [LinkedIn](url)
+- GitHub: [@chuckbuckethead](https://github.com/chuckbuckethead)
+- Twitter: [@aclerkofpomier](https://twitter.com/aclerkofpomier)
+- LinkedIn: [Carlos González](https://www.linkedin.com/in/chuckbuckethead/)
 
 ## Show your support
 
