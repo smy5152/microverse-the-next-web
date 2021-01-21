@@ -49,7 +49,7 @@ footer {
 .hero-image {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  /* grid-template-rows: repeat(2, 1fr); */
 }
 
 .hero-image img {
@@ -118,7 +118,7 @@ footer {
   font-weight: bold;
   font-family: "Avalon", sans-serif;
   letter-spacing: -0.015em;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   margin: 10px;
 }
 
