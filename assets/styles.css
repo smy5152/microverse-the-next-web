@@ -4,7 +4,8 @@
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 }
 
-html {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -943,8 +944,8 @@ h4,
   .latest-news-image img {
     float: left;
     margin-right: 10px;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
   }
 
   .footer-links-index li {
