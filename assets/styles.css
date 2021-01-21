@@ -49,7 +49,6 @@ footer {
 .hero-image {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* grid-template-rows: repeat(2, 1fr); */
 }
 
 .hero-image img {
@@ -118,8 +117,7 @@ footer {
   font-weight: bold;
   font-family: "Avalon", sans-serif;
   letter-spacing: -0.015em;
-  /* margin-bottom: 15px; */
-  margin: 10px;
+  margin-bottom: 15px;
 }
 
 .funding-investment-box {
@@ -235,6 +233,25 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.footer-links-index li {
+  display: list-item;
+  float: left;
+  font-size: 15px;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgba(170, 170, 170);
+  margin: 0 6px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.footer-links-social li {
+  display: inline-block;
+  margin: 0 12px;
+  color: white;
 }
 
 .black-top-bar ul {
@@ -484,13 +501,6 @@ h4,
   box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
   text-align: left;
   padding-left: 20px;
-  /* line-height: 60px;
-  font-size: 12px;
-  margin-left:
-  text-align: center;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  padding: 0 6px; */
   line-height: 30px;
   font-size: 13px;
 }
@@ -545,29 +555,10 @@ h4,
   text-align: center;
 }
 
-.footer-links-index li {
-  display: list-item;
-  float: left;
-  font-size: 15px;
-  font-family: Shentox, sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: rgba(170, 170, 170);
-  margin: 0 6px;
-  line-height: 24px;
-  cursor: pointer;
-}
-
 .footer-links-social {
   list-style: none;
   text-align: center;
   margin-bottom: 25px;
-}
-
-.footer-links-social li {
-  display: inline-block;
-  margin: 0 12px;
-  color: white;
 }
 
 .footer-links-social li a {
@@ -675,6 +666,7 @@ h4,
   .black-top-bar {
     visibility: visible;
     width: auto;
+    margin-left: 106px;
   }
 
   .hero h1 {
@@ -687,12 +679,6 @@ h4,
   .hero-image {
     transition: background-color 0.4s ease;
     z-index: 2;
-    /* margin-top: 24px; */
-  }
-
-  .black-top-bar,
-  .white-top-bar {
-    margin-left: 106px;
   }
 
   .black-top-bar ul li,
@@ -825,7 +811,6 @@ h4,
     font-size: 12px;
     margin-left: 0px;
     text-align: center;
-    text-overflow: ellipsis;
     white-space: nowrap;
     padding: 0 6px;
     display: block;
@@ -844,7 +829,7 @@ h4,
   }
 
   .img-popular1 img {
-    width: fit-content;
+    width: auto;
   }
 
   .latest-news-image img {
