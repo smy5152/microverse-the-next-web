@@ -437,9 +437,27 @@ h4,
   visibility: hidden;
 }
 
-.search-icon {
+.navbar-768px-right {
   float: right;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.navbar-icon {
   width: 47px;
+  margin-right: 1px;
+  border-left: 1px solid rgb(235, 235, 235);
+}
+
+.navbar-768px-left {
+  float: left;
+  width: 106px;
+  background: black;
+}
+
+.navbar-768px-left img {
+  max-width: 100%;
+  padding: 16px 20px;
 }
 
 .footer {
@@ -683,8 +701,16 @@ h4,
   }
 
   .navbar-768px {
+    background: white;
     visibility: visible;
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: space-between;
+    box-shadow: 0 0 32px rgba(0,0,0,.15);
+    position: fixed;
+    height: 48px;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
   }
 }
