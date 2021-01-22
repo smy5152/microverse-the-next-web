@@ -22,7 +22,7 @@ Skills Revived & Learned:
 - Position, Flex, Grid, Floats, RWD
 - Font, Image, Page Size manipulation with new CSS3 features.
 
-![screenshot](./assets/*.png)
+![screenshot](./assets/images/SITE-Image-readme.png)
 
 ## Built With
 
@@ -32,27 +32,21 @@ Skills Revived & Learned:
 
 ## Live Demo
 
-[Live Demo Link](url)
+[Live Demo Link](https://smy5152.github.io/microverse-the-next-web/.)
 
 ## Authors
 
 👤 **Shabbir**
 
-- GitHub: [@githubhandle](https://github.com/smy5152)
-- Twitter: [@twitterhandle](https://twitter.com/smymisr)
-- LinkedIn: [LinkedIn](https://linkedin.com/shabbirmyamani)
+- GitHub: [@smy5152](https://github.com/smy5152)
+- Twitter: [@smy5152](https://twitter.com/smy5152)
+- LinkedIn: [Shabbir Yamani](https://www.linkedin.com/in/shabbirmyamani/)
 
-👤 **Author 2**
+👤 **Carlos González**
 
-- GitHub: [@githubhandle](url)
-- Twitter: [@twitterhandle](url)
-- LinkedIn: [LinkedIn](url)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](url).
+- GitHub: [@chuckbuckethead](https://github.com/chuckbuckethead)
+- Twitter: [@aclerkofpomier](https://twitter.com/aclerkofpomier)
+- LinkedIn: [Carlos González](https://www.linkedin.com/in/chuckbuckethead/)
 
 ## Show your support
 
@@ -62,7 +56,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- Learning
 
 ## 📝 License
 
