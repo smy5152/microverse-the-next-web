@@ -854,7 +854,6 @@ h4,
 
   .hero-image img {
     width: 100%;
-    max-height: 120px;
   }
 
   .hero-image > *:first-child {
